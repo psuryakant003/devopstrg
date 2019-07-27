@@ -18,10 +18,7 @@ jobs:
 
     steps:
       - checkout
-
-     
-      # run tests!
       - run:
           name: verify cookbook style
           command: |
-          #echo 'test'
+          echo 'test'
